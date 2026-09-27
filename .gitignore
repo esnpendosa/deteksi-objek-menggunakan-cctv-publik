@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# SQLite Database & Local storage
+*.db
+*.sqlite3
+snapshots/*.jpg
+snapshots/*.png
+
+# YOLO Model weights (auto-downloaded by Ultralytics on first launch)
+models/*.pt
+
+# Pytest & caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
